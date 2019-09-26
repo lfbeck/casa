@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="-35dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/swLampadaArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvArea" />
+
+            <Switch
+                android:id="@+id/swLampadaBanheiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="@+id/swLampadaArea"
+                app:layout_constraintStart_toStartOf="@+id/swLampadaArea"
+                app:layout_constraintTop_toBottomOf="@+id/tvBanheiro" />
+
+            <Switch
+                android:id="@+id/swLampadaCirculacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="@+id/swLampadaBanheiro"
+                app:layout_constraintStart_toStartOf="@+id/swLampadaBanheiro"
+                app:layout_constraintTop_toBottomOf="@+id/tvCirculacao" />
+
+            <Switch
+                android:id="@+id/swLampadaCozinha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="@+id/swLampadaCirculacao"
+                app:layout_constraintStart_toStartOf="@+id/swLampadaCirculacao"
+                app:layout_constraintTop_toBottomOf="@+id/tvCozinha" />
+
+            <Switch
+                android:id="@+id/swLampadaDormitorio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="@+id/swLampadaCozinha"
+                app:layout_constraintStart_toStartOf="@+id/swLampadaCozinha"
+                app:layout_constraintTop_toBottomOf="@+id/tvDormitorio1" />
+
+            <Switch
+                android:id="@+id/swHVACDormitorio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/hvac"
+                app:layout_constraintStart_toEndOf="@+id/swLampadaDormitorio1"
+                app:layout_constraintTop_toTopOf="@+id/swLampadaDormitorio1" />
+
+            <Switch
+                android:id="@+id/swLampadaDormitorio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="@+id/swLampadaDormitorio1"
+                app:layout_constraintStart_toStartOf="@+id/swLampadaDormitorio1"
+                app:layout_constraintTop_toBottomOf="@+id/tvDormitorio2" />
+
+            <Switch
+                android:id="@+id/swHVACDormitorio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/hvac"
+                app:layout_constraintStart_toEndOf="@+id/swLampadaDormitorio2"
+                app:layout_constraintTop_toTopOf="@+id/swLampadaDormitorio2" />
+
+            <Switch
+                android:id="@+id/swLampadaDormitorio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="76dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="@+id/swLampadaDormitorio2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/tvDormitorio3"
+                app:layout_constraintTop_toBottomOf="@+id/tvDormitorio2" />
+
+            <Switch
+                android:id="@+id/swHVACDormitorio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/hvac"
+                app:layout_constraintStart_toEndOf="@+id/swLampadaDormitorio3"
+                app:layout_constraintTop_toTopOf="@+id/swLampadaDormitorio3" />
+
+            <Switch
+                android:id="@+id/swLampadaEstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:text="@string/lampada"
+                app:layout_constraintEnd_toEndOf="@+id/tvEstar"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvEstar"
+                app:layout_constraintTop_toBottomOf="@+id/tvDormitorio3" />
+
+            <TextView
+                android:id="@+id/tvArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/area"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvBanheiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/banheiro"
+                app:layout_constraintStart_toStartOf="@+id/tvArea"
+                app:layout_constraintTop_toBottomOf="@+id/swLampadaArea" />
+
+            <TextView
+                android:id="@+id/tvCirculacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/circulacao"
+                app:layout_constraintStart_toStartOf="@+id/tvBanheiro"
+                app:layout_constraintTop_toBottomOf="@+id/swLampadaBanheiro" />
+
+            <TextView
+                android:id="@+id/tvCozinha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/cozinha"
+                app:layout_constraintStart_toStartOf="@+id/tvCirculacao"
+                app:layout_constraintTop_toBottomOf="@+id/swLampadaCirculacao" />
+
+            <TextView
+                android:id="@+id/tvDormitorio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/dormitorio1"
+                app:layout_constraintStart_toStartOf="@+id/tvCozinha"
+                app:layout_constraintTop_toBottomOf="@+id/swLampadaCozinha" />
+
+            <TextView
+                android:id="@+id/tvDormitorio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/dormitorio2"
+                app:layout_constraintStart_toStartOf="@+id/tvDormitorio1"
+                app:layout_constraintTop_toBottomOf="@+id/swLampadaDormitorio1" />
+
+            <TextView
+                android:id="@+id/tvDormitorio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/dormitorio3"
+                app:layout_constraintStart_toStartOf="@+id/tvDormitorio2"
+                app:layout_constraintTop_toBottomOf="@+id/swLampadaDormitorio2" />
+
+            <TextView
+                android:id="@+id/tvEstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/estar"
+                app:layout_constraintStart_toStartOf="@+id/tvDormitorio3"
+                app:layout_constraintTop_toBottomOf="@+id/swLampadaDormitorio3" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

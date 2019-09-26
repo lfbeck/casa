@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603391031284",
+    "firebase_url": "https://casa-6f76f.firebaseio.com",
+    "project_id": "casa-6f76f",
+    "storage_bucket": "casa-6f76f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603391031284:android:55a8af019d0422b3982ba1",
+        "android_client_info": {
+          "package_name": "br.edu.ifsul.casa_automatizada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603391031284-sbjc8vcqk6i0upsnoo6m5q8s4n8us4gr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ifsul.casa_automatizada",
+            "certificate_hash": "2b70b470899db4939db3ee8b399a9ffe5e5d24da"
+          }
+        },
+        {
+          "client_id": "603391031284-9vc8u82djhmjkca2931m97m45leggkj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvcS_s6yKK3zDNV-CveLvrltLdi_Y3JlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603391031284-9vc8u82djhmjkca2931m97m45leggkj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

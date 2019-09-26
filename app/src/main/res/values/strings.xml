@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Casa 4.0</string>
+    <string name="area">Área</string>
+    <string name="lampada">Lâmpada</string>
+    <string name="hvac">Ar-condicionado</string>
+    <string name="cozinha">Cozinha</string>
+    <string name="dormitorio1">Dormitório 1</string>
+    <string name="dormitorio2">Dormitório 2</string>
+    <string name="dormitorio3">Dormitório 3</string>
+    <string name="circulacao">Circulação</string>
+    <string name="banheiro">Banheiro</string>
+    <string name="estar">Estar</string>
+</resources>
